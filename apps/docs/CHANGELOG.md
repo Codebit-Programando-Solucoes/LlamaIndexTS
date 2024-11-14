@@ -1,5 +1,69 @@
 # docs
 
+## 0.0.117
+
+### Patch Changes
+
+- @llamaindex/examples@0.0.15
+
+## 0.0.116
+
+### Patch Changes
+
+- llamaindex@0.8.12
+
+## 0.0.115
+
+### Patch Changes
+
+- llamaindex@0.8.11
+
+## 0.0.114
+
+### Patch Changes
+
+- Updated dependencies [f066e50]
+  - llamaindex@0.8.10
+  - @llamaindex/examples@0.0.14
+
+## 0.0.113
+
+### Patch Changes
+
+- Updated dependencies [4fc001c]
+- Updated dependencies [4d4cd8a]
+  - llamaindex@0.8.9
+
+## 0.0.112
+
+### Patch Changes
+
+- Updated dependencies [ad85bd0]
+  - llamaindex@0.8.8
+  - @llamaindex/examples@0.0.13
+
+## 0.0.111
+
+### Patch Changes
+
+- llamaindex@0.8.7
+
+## 0.0.110
+
+### Patch Changes
+
+- Updated dependencies [95a5cc6]
+  - llamaindex@0.8.6
+
+## 0.0.109
+
+### Patch Changes
+
+- Updated dependencies [14cc9eb]
+- Updated dependencies [a6db5dd]
+- Updated dependencies [396b1e1]
+  - llamaindex@0.8.5
+
 ## 0.0.108
 
 ### Patch Changes

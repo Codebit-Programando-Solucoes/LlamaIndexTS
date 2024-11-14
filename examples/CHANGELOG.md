@@ -1,5 +1,36 @@
 # examples
 
+## 0.0.15
+
+### Patch Changes
+
+- Updated dependencies [ea92b69]
+- Updated dependencies [fadc8b8]
+  - @llamaindex/workflow@0.0.5
+
+## 0.0.14
+
+### Patch Changes
+
+- Updated dependencies [f066e50]
+- Updated dependencies [d89ebe0]
+- Updated dependencies [fd8c882]
+- Updated dependencies [fd8c882]
+  - llamaindex@0.8.10
+  - @llamaindex/core@0.4.7
+  - @llamaindex/workflow@0.0.4
+  - @llamaindex/readers@1.0.8
+
+## 0.0.13
+
+### Patch Changes
+
+- Updated dependencies [ad85bd0]
+  - @llamaindex/core@0.4.5
+  - llamaindex@0.8.8
+  - @llamaindex/workflow@0.0.3
+  - @llamaindex/readers@1.0.6
+
 ## 0.0.12
 
 ### Patch Changes

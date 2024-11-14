@@ -1,6 +1,6 @@
 {
   "name": "@llamaindex/doc",
-  "version": "0.0.6",
+  "version": "0.0.15",
   "private": true,
   "scripts": {
     "build": "pnpm run build:docs && next build",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^10.1.0",
+    "@llamaindex/chat-ui": "0.0.5",
     "@llamaindex/cloud": "workspace:*",
     "@llamaindex/core": "workspace:*",
     "@llamaindex/node-parser": "workspace:*",
@@ -67,7 +68,7 @@
   "devDependencies": {
     "@next/env": "^15.0.2",
     "@types/mdx": "^2.0.13",
-    "@types/node": "22.8.6",
+    "@types/node": "22.9.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",

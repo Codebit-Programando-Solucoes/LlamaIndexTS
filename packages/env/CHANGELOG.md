@@ -1,5 +1,32 @@
 # @llamaindex/env
 
+## 0.1.20
+
+### Patch Changes
+
+- 4fc001c: chore: bump `@huggingface/transformers`
+
+  Upgrade to v3, please read https://github.com/huggingface/transformers.js/releases/tag/3.0.0 for more information.
+
+## 0.1.19
+
+### Patch Changes
+
+- ad85bd0: - fix agent chat message not saved into the task context when streaming
+  - fix async local storage might use `node:async_hook` in edge-light/workerd condition
+
+## 0.1.18
+
+### Patch Changes
+
+- a8d3fa6: fix: exports in package.json
+
+## 0.1.17
+
+### Patch Changes
+
+- 14cc9eb: chore: move multi-model into single sub module
+
 ## 0.1.16
 
 ### Patch Changes

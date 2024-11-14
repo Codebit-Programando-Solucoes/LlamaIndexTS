@@ -1,5 +1,182 @@
 # llamaindex
 
+## 0.8.12
+
+### Patch Changes
+
+- Updated dependencies [7ae6eaa]
+  - @llamaindex/core@0.4.9
+  - @llamaindex/openai@0.1.34
+  - @llamaindex/cloud@2.0.9
+  - @llamaindex/node-parser@0.0.10
+  - @llamaindex/anthropic@0.0.18
+  - @llamaindex/clip@0.0.18
+  - @llamaindex/deepinfra@0.0.18
+  - @llamaindex/huggingface@0.0.18
+  - @llamaindex/ollama@0.0.25
+  - @llamaindex/portkey-ai@0.0.18
+  - @llamaindex/replicate@0.0.18
+  - @llamaindex/readers@1.0.10
+  - @llamaindex/groq@0.0.33
+  - @llamaindex/vllm@0.0.4
+
+## 0.8.11
+
+### Patch Changes
+
+- Updated dependencies [f865c98]
+  - @llamaindex/core@0.4.8
+  - @llamaindex/cloud@2.0.8
+  - @llamaindex/node-parser@0.0.9
+  - @llamaindex/anthropic@0.0.17
+  - @llamaindex/clip@0.0.17
+  - @llamaindex/deepinfra@0.0.17
+  - @llamaindex/huggingface@0.0.17
+  - @llamaindex/ollama@0.0.24
+  - @llamaindex/openai@0.1.33
+  - @llamaindex/portkey-ai@0.0.17
+  - @llamaindex/replicate@0.0.17
+  - @llamaindex/readers@1.0.9
+  - @llamaindex/groq@0.0.32
+  - @llamaindex/vllm@0.0.3
+
+## 0.8.10
+
+### Patch Changes
+
+- f066e50: feat: vllm support
+- Updated dependencies [f066e50]
+- Updated dependencies [d89ebe0]
+- Updated dependencies [fd8c882]
+  - @llamaindex/vllm@0.0.2
+  - @llamaindex/core@0.4.7
+  - @llamaindex/cloud@2.0.7
+  - @llamaindex/node-parser@0.0.8
+  - @llamaindex/anthropic@0.0.16
+  - @llamaindex/clip@0.0.16
+  - @llamaindex/deepinfra@0.0.16
+  - @llamaindex/huggingface@0.0.16
+  - @llamaindex/ollama@0.0.23
+  - @llamaindex/openai@0.1.32
+  - @llamaindex/portkey-ai@0.0.16
+  - @llamaindex/replicate@0.0.16
+  - @llamaindex/readers@1.0.8
+  - @llamaindex/groq@0.0.31
+
+## 0.8.9
+
+### Patch Changes
+
+- 4fc001c: chore: bump `@huggingface/transformers`
+
+  Upgrade to v3, please read https://github.com/huggingface/transformers.js/releases/tag/3.0.0 for more information.
+
+- 4d4cd8a: feat: support ollama tool call
+
+  Note that `OllamaEmbedding` now is not the subclass of `Ollama`.
+
+- Updated dependencies [4fc001c]
+- Updated dependencies [4d4cd8a]
+  - @llamaindex/env@0.1.20
+  - @llamaindex/clip@0.0.15
+  - @llamaindex/huggingface@0.0.15
+  - @llamaindex/ollama@0.0.22
+  - @llamaindex/cloud@2.0.6
+  - @llamaindex/core@0.4.6
+  - @llamaindex/node-parser@0.0.7
+  - @llamaindex/anthropic@0.0.15
+  - @llamaindex/deepinfra@0.0.15
+  - @llamaindex/groq@0.0.30
+  - @llamaindex/openai@0.1.31
+  - @llamaindex/portkey-ai@0.0.15
+  - @llamaindex/replicate@0.0.15
+  - @llamaindex/readers@1.0.7
+
+## 0.8.8
+
+### Patch Changes
+
+- ad85bd0: - fix agent chat message not saved into the task context when streaming
+  - fix async local storage might use `node:async_hook` in edge-light/workerd condition
+- Updated dependencies [ad85bd0]
+  - @llamaindex/core@0.4.5
+  - @llamaindex/env@0.1.19
+  - @llamaindex/node-parser@0.0.6
+  - @llamaindex/cloud@2.0.5
+  - @llamaindex/anthropic@0.0.14
+  - @llamaindex/clip@0.0.14
+  - @llamaindex/deepinfra@0.0.14
+  - @llamaindex/huggingface@0.0.14
+  - @llamaindex/ollama@0.0.21
+  - @llamaindex/openai@0.1.30
+  - @llamaindex/portkey-ai@0.0.14
+  - @llamaindex/replicate@0.0.14
+  - @llamaindex/readers@1.0.6
+  - @llamaindex/groq@0.0.29
+
+## 0.8.7
+
+### Patch Changes
+
+- Updated dependencies [a8d3fa6]
+  - @llamaindex/env@0.1.18
+  - @llamaindex/cloud@2.0.4
+  - @llamaindex/core@0.4.4
+  - @llamaindex/node-parser@0.0.5
+  - @llamaindex/anthropic@0.0.13
+  - @llamaindex/clip@0.0.13
+  - @llamaindex/deepinfra@0.0.13
+  - @llamaindex/groq@0.0.28
+  - @llamaindex/huggingface@0.0.13
+  - @llamaindex/ollama@0.0.20
+  - @llamaindex/openai@0.1.29
+  - @llamaindex/portkey-ai@0.0.13
+  - @llamaindex/replicate@0.0.13
+  - @llamaindex/readers@1.0.5
+
+## 0.8.6
+
+### Patch Changes
+
+- 95a5cc6: refactor: move storage into core
+- Updated dependencies [95a5cc6]
+  - @llamaindex/core@0.4.3
+  - @llamaindex/cloud@2.0.3
+  - @llamaindex/node-parser@0.0.4
+  - @llamaindex/anthropic@0.0.12
+  - @llamaindex/clip@0.0.12
+  - @llamaindex/deepinfra@0.0.12
+  - @llamaindex/huggingface@0.0.12
+  - @llamaindex/ollama@0.0.19
+  - @llamaindex/openai@0.1.28
+  - @llamaindex/portkey-ai@0.0.12
+  - @llamaindex/replicate@0.0.12
+  - @llamaindex/readers@1.0.4
+  - @llamaindex/groq@0.0.27
+
+## 0.8.5
+
+### Patch Changes
+
+- 14cc9eb: chore: move multi-model into single sub module
+- a6db5dd: feat: add baseUrl and timeout option in cohere rerank
+- 396b1e1: feat: add Azure Cosmos DB DocumentStore, IndexStore, KVStore, update vectorStore and examples
+- Updated dependencies [14cc9eb]
+  - @llamaindex/env@0.1.17
+  - @llamaindex/clip@0.0.11
+  - @llamaindex/huggingface@0.0.11
+  - @llamaindex/cloud@2.0.2
+  - @llamaindex/core@0.4.2
+  - @llamaindex/node-parser@0.0.3
+  - @llamaindex/anthropic@0.0.11
+  - @llamaindex/deepinfra@0.0.11
+  - @llamaindex/groq@0.0.26
+  - @llamaindex/ollama@0.0.18
+  - @llamaindex/openai@0.1.27
+  - @llamaindex/portkey-ai@0.0.11
+  - @llamaindex/replicate@0.0.11
+  - @llamaindex/readers@1.0.3
+
 ## 0.8.4
 
 ### Patch Changes

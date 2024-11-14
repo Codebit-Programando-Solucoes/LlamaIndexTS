@@ -1,7 +1,7 @@
 {
   "name": "@llamaindex/community",
   "description": "Community package for LlamaIndexTS",
-  "version": "0.0.58",
+  "version": "0.0.67",
   "type": "module",
   "types": "dist/type/index.d.ts",
   "main": "dist/cjs/index.js",
@@ -42,8 +42,8 @@
     "dev": "bunchee --watch"
   },
   "devDependencies": {
-    "@types/node": "^22.8.4",
-    "bunchee": "5.5.1"
+    "@types/node": "^22.9.0",
+    "bunchee": "5.6.1"
   },
   "dependencies": {
     "@aws-sdk/client-bedrock-agent-runtime": "^3.642.0",

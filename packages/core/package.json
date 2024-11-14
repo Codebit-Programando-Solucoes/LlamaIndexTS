@@ -1,7 +1,7 @@
 {
   "name": "@llamaindex/core",
   "type": "module",
-  "version": "0.4.1",
+  "version": "0.4.9",
   "description": "LlamaIndex Core Module",
   "exports": {
     "./agent": {
@@ -214,6 +214,48 @@
         "default": "./storage/chat-store/dist/index.js"
       }
     },
+    "./storage/doc-store": {
+      "require": {
+        "types": "./storage/doc-store/dist/index.d.cts",
+        "default": "./storage/doc-store/dist/index.cjs"
+      },
+      "import": {
+        "types": "./storage/doc-store/dist/index.d.ts",
+        "default": "./storage/doc-store/dist/index.js"
+      },
+      "default": {
+        "types": "./storage/doc-store/dist/index.d.ts",
+        "default": "./storage/doc-store/dist/index.js"
+      }
+    },
+    "./storage/index-store": {
+      "require": {
+        "types": "./storage/index-store/dist/index.d.cts",
+        "default": "./storage/index-store/dist/index.cjs"
+      },
+      "import": {
+        "types": "./storage/index-store/dist/index.d.ts",
+        "default": "./storage/index-store/dist/index.js"
+      },
+      "default": {
+        "types": "./storage/index-store/dist/index.d.ts",
+        "default": "./storage/index-store/dist/index.js"
+      }
+    },
+    "./storage/kv-store": {
+      "require": {
+        "types": "./storage/kv-store/dist/index.d.cts",
+        "default": "./storage/kv-store/dist/index.cjs"
+      },
+      "import": {
+        "types": "./storage/kv-store/dist/index.d.ts",
+        "default": "./storage/kv-store/dist/index.js"
+      },
+      "default": {
+        "types": "./storage/kv-store/dist/index.d.ts",
+        "default": "./storage/kv-store/dist/index.js"
+      }
+    },
     "./response-synthesizers": {
       "require": {
         "types": "./response-synthesizers/dist/index.d.cts",
@@ -349,13 +391,13 @@
   "devDependencies": {
     "@edge-runtime/vm": "^4.0.3",
     "ajv": "^8.17.1",
-    "bunchee": "5.5.1",
-    "happy-dom": "^15.7.4",
+    "bunchee": "5.6.1",
+    "happy-dom": "^15.11.0",
     "natural": "^8.0.1"
   },
   "dependencies": {
     "@llamaindex/env": "workspace:*",
-    "@types/node": "^22.8.4",
+    "@types/node": "^22.9.0",
     "magic-bytes.js": "^1.10.0",
     "zod": "^3.23.8",
     "zod-to-json-schema": "^3.23.3"

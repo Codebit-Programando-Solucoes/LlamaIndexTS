@@ -1,5 +1,73 @@
 # @llamaindex/community
 
+## 0.0.67
+
+### Patch Changes
+
+- Updated dependencies [7ae6eaa]
+  - @llamaindex/core@0.4.9
+
+## 0.0.66
+
+### Patch Changes
+
+- Updated dependencies [f865c98]
+  - @llamaindex/core@0.4.8
+
+## 0.0.65
+
+### Patch Changes
+
+- Updated dependencies [d89ebe0]
+- Updated dependencies [fd8c882]
+  - @llamaindex/core@0.4.7
+
+## 0.0.64
+
+### Patch Changes
+
+- Updated dependencies [4fc001c]
+  - @llamaindex/env@0.1.20
+  - @llamaindex/core@0.4.6
+
+## 0.0.63
+
+### Patch Changes
+
+- Updated dependencies [ad85bd0]
+  - @llamaindex/core@0.4.5
+  - @llamaindex/env@0.1.19
+
+## 0.0.62
+
+### Patch Changes
+
+- Updated dependencies [a8d3fa6]
+  - @llamaindex/env@0.1.18
+  - @llamaindex/core@0.4.4
+
+## 0.0.61
+
+### Patch Changes
+
+- 487782c: Add missing inference endpoints for Haiku 3.5
+- Updated dependencies [95a5cc6]
+  - @llamaindex/core@0.4.3
+
+## 0.0.60
+
+### Patch Changes
+
+- Updated dependencies [14cc9eb]
+  - @llamaindex/env@0.1.17
+  - @llamaindex/core@0.4.2
+
+## 0.0.59
+
+### Patch Changes
+
+- 47a7c3e: feat: added support for Haiku 3.5 via Bedrock
+
 ## 0.0.58
 
 ### Patch Changes

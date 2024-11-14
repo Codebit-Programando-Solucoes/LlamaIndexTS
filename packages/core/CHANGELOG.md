@@ -1,5 +1,60 @@
 # @llamaindex/core
 
+## 0.4.9
+
+### Patch Changes
+
+- 7ae6eaa: feat: allow pass `additionalChatOptions` to agent
+
+## 0.4.8
+
+### Patch Changes
+
+- f865c98: feat: async get message on chat store
+
+## 0.4.7
+
+### Patch Changes
+
+- d89ebe0: feat: better support for zod schema
+- fd8c882: chore: add warning on legacy workflow API
+
+## 0.4.6
+
+### Patch Changes
+
+- Updated dependencies [4fc001c]
+  - @llamaindex/env@0.1.20
+
+## 0.4.5
+
+### Patch Changes
+
+- ad85bd0: - fix agent chat message not saved into the task context when streaming
+  - fix async local storage might use `node:async_hook` in edge-light/workerd condition
+- Updated dependencies [ad85bd0]
+  - @llamaindex/env@0.1.19
+
+## 0.4.4
+
+### Patch Changes
+
+- Updated dependencies [a8d3fa6]
+  - @llamaindex/env@0.1.18
+
+## 0.4.3
+
+### Patch Changes
+
+- 95a5cc6: refactor: move storage into core
+
+## 0.4.2
+
+### Patch Changes
+
+- Updated dependencies [14cc9eb]
+  - @llamaindex/env@0.1.17
+
 ## 0.4.1
 
 ### Patch Changes
