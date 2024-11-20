@@ -1,7 +1,7 @@
 {
-  "name": "@llamaindex/community",
+  "name": "@codebit-programando-solucoes/llamaindex-community",
   "description": "Community package for LlamaIndexTS",
-  "version": "0.0.67",
+  "version": "0.0.68",
   "type": "module",
   "types": "dist/type/index.d.ts",
   "main": "dist/cjs/index.js",
@@ -48,7 +48,7 @@
   "dependencies": {
     "@aws-sdk/client-bedrock-agent-runtime": "^3.642.0",
     "@aws-sdk/client-bedrock-runtime": "^3.642.0",
-    "@llamaindex/core": "workspace:*",
-    "@llamaindex/env": "workspace:*"
+    "@llamaindex/core": "0.4.9",
+    "@llamaindex/env": "0.1.20"
   }
 }

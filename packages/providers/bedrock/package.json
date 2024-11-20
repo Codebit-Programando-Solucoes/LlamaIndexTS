@@ -1,7 +1,7 @@
 {
-  "name": "@llamaindex/bedrock",
+  "name": "@codebit-programando-solucoes/llamaindex-bedrock",
   "description": "Bedrock Adapter for LlamaIndex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -35,8 +35,8 @@
   "dependencies": {
     "@aws-sdk/client-bedrock": "^3.682.0",
     "@aws-sdk/client-bedrock-runtime": "^3.642.0",
-    "@llamaindex/core": "workspace:*",
-    "@llamaindex/env": "workspace:*",
+    "@llamaindex/core": "0.4.9",
+    "@llamaindex/env": "0.1.20",
     "aws-sdk": "^2.1691.0",
     "remeda": "^2.12.0"
   }

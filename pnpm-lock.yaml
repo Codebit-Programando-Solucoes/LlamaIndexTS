@@ -985,52 +985,52 @@ importers:
         specifier: ^1.12.2
         version: 1.12.2
       '@llamaindex/anthropic':
-        specifier: workspace:*
+        specifier: 0.0.18
         version: link:../providers/anthropic
       '@llamaindex/bedrock':
-        specifier: workspace:*
-        version: link:../providers/bedrock
+        specifier: npm:@codebit-programando-solucoes/llamaindex-bedrock@0.0.2
+        version: '@codebit-programando-solucoes/llamaindex-bedrock@0.0.2(@aws-crypto/sha256-js@5.2.0)(@huggingface/transformers@3.0.2)(gpt-tokenizer@2.6.0)(js-tiktoken@1.0.15)(pathe@1.1.2)'
       '@llamaindex/clip':
-        specifier: workspace:*
+        specifier: 0.0.18
         version: link:../providers/clip
       '@llamaindex/cloud':
-        specifier: workspace:*
+        specifier: 2.0.9
         version: link:../cloud
       '@llamaindex/core':
-        specifier: workspace:*
+        specifier: 0.4.9
         version: link:../core
       '@llamaindex/deepinfra':
-        specifier: workspace:*
+        specifier: 0.0.18
         version: link:../providers/deepinfra
       '@llamaindex/env':
-        specifier: workspace:*
+        specifier: 0.1.20
         version: link:../env
       '@llamaindex/groq':
-        specifier: workspace:*
+        specifier: 0.0.33
         version: link:../providers/groq
       '@llamaindex/huggingface':
-        specifier: workspace:*
+        specifier: 0.0.18
         version: link:../providers/huggingface
       '@llamaindex/node-parser':
-        specifier: workspace:*
+        specifier: 0.0.10
         version: link:../node-parser
       '@llamaindex/ollama':
-        specifier: workspace:*
+        specifier: 0.0.25
         version: link:../providers/ollama
       '@llamaindex/openai':
-        specifier: workspace:*
+        specifier: 0.1.34
         version: link:../providers/openai
       '@llamaindex/portkey-ai':
-        specifier: workspace:*
+        specifier: 0.0.18
         version: link:../providers/portkey-ai
       '@llamaindex/readers':
-        specifier: workspace:*
+        specifier: 1.0.10
         version: link:../readers
       '@llamaindex/replicate':
-        specifier: workspace:*
+        specifier: 0.0.18
         version: link:../providers/replicate
       '@llamaindex/vllm':
-        specifier: workspace:*
+        specifier: 0.0.4
         version: link:../providers/vllm
       '@mistralai/mistralai':
         specifier: ^1.0.4
@@ -2736,6 +2736,9 @@ packages:
   '@cloudflare/workers-types@4.20241022.0':
     resolution: {integrity: sha512-1zOAw5QIDKItzGatzCrEpfLOB1AuMTwVqKmbw9B9eBfCUGRFNfJYMrJxIwcse9EmKahsQt2GruqU00pY/GyXgg==}
 
+  '@codebit-programando-solucoes/llamaindex-bedrock@0.0.2':
+    resolution: {integrity: sha512-YOeGXOCWs+Y91IBkkO2jJ9cU02js6LVyls2EwXtJu9o+rllo82S0uBLlFnTGFKaE2BKDwnD4/+PbdKLwLpPc3g==}
+
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
@@ -3884,6 +3887,30 @@ packages:
     resolution: {integrity: sha512-nGlhtAeIlVBtHAsCtBN5f+/iJpIHQ7uFf43ebye/wATf5tT12HUl3tP5O/+XC7nyXXwByjk5KAEN+hk3aC1Cug==}
     peerDependencies:
       react: ^18.2.0
+
+  '@llamaindex/core@0.4.9':
+    resolution: {integrity: sha512-pvD/GrxoVdbrjcheo6a5D6PiBCJfzY8OnGZe+MJf082JWD8X+DHQ4qbWOdjEfPp2AVMzp2FrXQRgz0rsqVrTZg==}
+
+  '@llamaindex/env@0.1.20':
+    resolution: {integrity: sha512-t7l/YQFa+qrtNlShyTtfculJNM8ji7Y2KAlH22W5YvSQGEtC74yBAwaE+kk0VXPlZk7etAbw64Dc++dTp6h4EQ==}
+    peerDependencies:
+      '@aws-crypto/sha256-js': ^5.2.0
+      '@huggingface/transformers': ^3.0.2
+      gpt-tokenizer: ^2.5.0
+      js-tiktoken: ^1.0.12
+      pathe: ^1.1.2
+      tiktoken: '*'
+    peerDependenciesMeta:
+      '@aws-crypto/sha256-js':
+        optional: true
+      '@huggingface/transformers':
+        optional: true
+      js-tiktoken:
+        optional: true
+      pathe:
+        optional: true
+      tiktoken:
+        optional: true
 
   '@llamaindex/pdf-viewer@1.2.0':
     resolution: {integrity: sha512-GBn944h8UfuHLlNl2+C4GENY5Q5bMLRDnAyfCotkSoN3DBO0j9Ih1rnahRxC/m8qooN2SkPLnIJL69PxjZWr1Q==}
@@ -15646,6 +15673,23 @@ snapshots:
 
   '@cloudflare/workers-types@4.20241022.0': {}
 
+  '@codebit-programando-solucoes/llamaindex-bedrock@0.0.2(@aws-crypto/sha256-js@5.2.0)(@huggingface/transformers@3.0.2)(gpt-tokenizer@2.6.0)(js-tiktoken@1.0.15)(pathe@1.1.2)':
+    dependencies:
+      '@aws-sdk/client-bedrock': 3.691.0
+      '@aws-sdk/client-bedrock-runtime': 3.682.0
+      '@llamaindex/core': 0.4.9(@aws-crypto/sha256-js@5.2.0)(@huggingface/transformers@3.0.2)(gpt-tokenizer@2.6.0)(js-tiktoken@1.0.15)(pathe@1.1.2)
+      '@llamaindex/env': 0.1.20(@aws-crypto/sha256-js@5.2.0)(@huggingface/transformers@3.0.2)(gpt-tokenizer@2.6.0)(js-tiktoken@1.0.15)(pathe@1.1.2)
+      aws-sdk: 2.1692.0
+      remeda: 2.16.0
+    transitivePeerDependencies:
+      - '@aws-crypto/sha256-js'
+      - '@huggingface/transformers'
+      - aws-crt
+      - gpt-tokenizer
+      - js-tiktoken
+      - pathe
+      - tiktoken
+
   '@colors/colors@1.5.0':
     optional: true
 
@@ -17098,6 +17142,30 @@ snapshots:
       - encoding
       - react-dom
       - supports-color
+
+  '@llamaindex/core@0.4.9(@aws-crypto/sha256-js@5.2.0)(@huggingface/transformers@3.0.2)(gpt-tokenizer@2.6.0)(js-tiktoken@1.0.15)(pathe@1.1.2)':
+    dependencies:
+      '@llamaindex/env': 0.1.20(@aws-crypto/sha256-js@5.2.0)(@huggingface/transformers@3.0.2)(gpt-tokenizer@2.6.0)(js-tiktoken@1.0.15)(pathe@1.1.2)
+      '@types/node': 22.9.0
+      magic-bytes.js: 1.10.0
+      zod: 3.23.8
+      zod-to-json-schema: 3.23.5(zod@3.23.8)
+    transitivePeerDependencies:
+      - '@aws-crypto/sha256-js'
+      - '@huggingface/transformers'
+      - gpt-tokenizer
+      - js-tiktoken
+      - pathe
+      - tiktoken
+
+  '@llamaindex/env@0.1.20(@aws-crypto/sha256-js@5.2.0)(@huggingface/transformers@3.0.2)(gpt-tokenizer@2.6.0)(js-tiktoken@1.0.15)(pathe@1.1.2)':
+    dependencies:
+      gpt-tokenizer: 2.6.0
+    optionalDependencies:
+      '@aws-crypto/sha256-js': 5.2.0
+      '@huggingface/transformers': 3.0.2
+      js-tiktoken: 1.0.15
+      pathe: 1.1.2
 
   '@llamaindex/pdf-viewer@1.2.0(@types/react@18.3.12)(encoding@0.1.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
